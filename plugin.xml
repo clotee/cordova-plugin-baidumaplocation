@@ -28,7 +28,7 @@
     <keywords>cordova,baidu,location,geolocation</keywords>
     <repo>https://github.com/aruis/cordova-plugin-baidumaplocation</repo>
     <issue>https://github.com/aruis/cordova-plugin-baidumaplocation/issues</issue>
-    
+
     <engines>
         <engine name="cordova-android" version=">=5.0.0" />
     </engines>
@@ -82,7 +82,7 @@
             </service>
             <meta-data android:name="com.baidu.lbsapi.API_KEY" android:value="$ANDROID_KEY"/>
         </config-file>
-        
+
         <framework src="src/android/BaiduMapLocation.gradle" custom="true" type="gradleReference"/>
         <source-file src="src/android/BaiduMapLocation.java" target-dir="src/com/aruistar/cordova/baidumap"/>
         <source-file src="libs/android/armeabi/libindoor.so" target-dir="libs/armeabi"/>
